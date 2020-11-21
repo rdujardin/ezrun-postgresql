@@ -1,6 +1,20 @@
 # ezrun-postgresql
 Ez run PostgreSQL
 
+*Caution, this is a quick and easy deployment intended for prototyping, not suitable for production*
+
+## Pre-requisites
+
+Install Docker and Docker-Compose:
+
+```bash
+$ sudo apt install docker
+$ sudo chmod 666 /var/run/docker.sock
+$ sudo apt install docker-compose
+```
+
+*Caution, this is a quick and dirty way to install them, not suitable for production*
+
 ## How to use
 
 ```bash
